@@ -1,0 +1,24 @@
+{
+  "name": "nodehapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "chromedriver": "^77.0.0",
+    "csv-parser": "^3.0.0",
+    "elasticsearch": "^16.7.2",
+    "hapi-response-time": "^2.2.1",
+    "hashmap": "^2.4.0",
+    "node-cron": "^3.0.0",
+    "redis": "^3.1.2",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
